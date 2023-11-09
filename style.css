@@ -1,0 +1,129 @@
+body{
+    background-color: blueviolet;
+}
+
+h1{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+#main-canvas{
+
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    border: 1px 00000025 solid;
+    border-width: 2px 2px 1px 1px ;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+#canvas{
+    border-radius: 15px;
+    background-color: rgb(200, 200, 200);
+
+}
+
+.row{
+    display: grid;
+}
+
+.tile{
+    /* border: 0.1px solid black; */
+    border-width: 0 0 1px 1px;
+    border-color: #00000025;
+    border-style: solid;
+    background-color: rgb(200, 200, 200);
+}
+
+#canvas{
+    border: 3px solid black;
+    width: fit-content;
+}
+.buttons{
+    display: grid;
+    width: 336px;
+}
+
+.pallete{
+    display: flex;
+    margin: 20px;
+    border-radius: 100px;
+    background-color: brown;
+    width: 250px;
+    height: 200px;
+    border: solid 15px darkred
+
+}
+.color-btn{
+    padding: 20px;
+    width: 80px;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    border: 2px black solid;
+}
+
+.col{
+    display: block;
+}
+
+.top{
+    display: flex;
+}
+
+.effects{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.effect{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+#purple{
+    background-color: purple;
+}
+
+#btn1{
+    background-color: aqua;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+#red{
+    background-color: red;
+}
+
+#green{
+    background-color: green;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#orange{
+    background-color: orange;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#black{
+    background-color: black;
+}
+
+#white{
+    color: black;
+}
+
+#gray{
+    background-color: gray;
+}
